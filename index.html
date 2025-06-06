@@ -3,72 +3,338 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>My Amazon Affiliate Pick</title>
+  <title>Rope Access Gear – Best Deals & Quality</title>
   <style>
     body {
       margin: 0;
       padding: 0;
-      font-family: sans-serif;
-      background-color: #f9f9f9;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
       color: #333;
     }
     header {
-      background-color: #ff9900;
+      background-color: #004058;
       color: #fff;
-      padding: 1rem;
+      padding: 1.5rem;
       text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      letter-spacing: 0.05em;
     }
     main {
-      max-width: 600px;
+      max-width: 1000px;
       margin: 2rem auto;
       padding: 0 1rem;
-      text-align: center;
     }
-    .product {
+    .intro {
       background-color: #fff;
-      border-radius: 6px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-      overflow: hidden;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
       padding: 1.5rem;
+      margin-bottom: 2rem;
+      line-height: 1.6;
     }
-    .product-title {
-      font-size: 1.5rem;
-      margin-bottom: 1rem;
+    .intro h2 {
+      margin-top: 0;
+      color: #004058;
     }
-    .buy-btn {
-      display: inline-block;
-      padding: 0.75rem 1.5rem;
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      justify-content: center;
+    }
+    .product-card {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      overflow: hidden;
+      width: 280px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .product-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: contain;
+      background-color: #fafafa;
+    }
+    .product-info {
+      padding: 1rem;
+      flex-grow: 1;
+    }
+    .product-info h3 {
+      font-size: 1.1rem;
+      margin: 0 0 0.5rem 0;
+      color: #004058;
+    }
+    .product-info p {
+      margin: 0;
+      font-size: 0.95rem;
+      color: #555;
+      line-height: 1.4;
+    }
+    .product-card a.buy-btn {
+      display: block;
+      text-align: center;
       background-color: #0073bb;
       color: #fff;
       text-decoration: none;
-      border-radius: 4px;
+      padding: 0.75rem 0;
       font-weight: bold;
+      border-bottom-left-radius: 8px;
+      border-bottom-right-radius: 8px;
     }
-    .buy-btn:hover {
+    .product-card a.buy-btn:hover {
       background-color: #005fa3;
     }
     footer {
       text-align: center;
       font-size: 0.9rem;
-      padding: 1rem 0;
-      color: #666;
+      padding: 2rem 0 1rem 0;
+      color: #777;
     }
   </style>
 </head>
 <body>
 
   <header>
-    <h1>My Amazon Affiliate Pick</h1>
+    <h1>Rope Access Gear – Best Deals & Quality</h1>
   </header>
 
   <main>
-    <section class="product">
-      <h2 class="product-title">View This Product on Amazon</h2>
+    <section class="intro">
+      <h2>Welcome to Rope Access Essentials</h2>
+      <p>
+        This website is dedicated to helping rope access technicians, climbers, and industrial safety professionals find the highest-quality equipment at unbeatable prices on Amazon.
+        We’ve handpicked everything you need to start working safely at height—from descenders and ascenders to fall-arrest devices and positioning lanyards. These are the exact tools we trust on the job, and each listing is linked to a genuine Amazon deal that saves you time and money.
+      </p>
+      <p>
+        Whether you’re just beginning your rope access journey or looking to upgrade your kit, you’ll find everything here to build a complete, professional-grade setup. Scroll down to explore our recommended gear and click “Buy on Amazon” to secure the best price with your preferred affiliate link.
+      </p>
+    </section>
+
+    <section class="products">
+      <!-- Product 1: Descender – Petzl ID S -->
+      <div class="product-card">
+        <img
+          src="REPLACE_WITH_PETZL_ID_S_IMAGE_URL"
+          alt="Petzl ID S Descender"
+        />
+        <div class="product-info">
+          <h3>Petzl ID S Descender</h3>
+          <p>Self-braking descender designed for rope access and rescue. Smooth rope handling and durable construction.</p>
+        </div>
+        <a
+          class="buy-btn"
+          href="https://amzn.to/444xEfd"
+          target="_blank"
+          rel="noopener"
+        >
+          Buy on Amazon
+        </a>
+      </div>
+
+      <!-- Product 2: Fall Arrest Device – Petzl ASAP Lock -->
+      <div class="product-card">
+        <img
+          src="REPLACE_WITH_ASAP_LOCK_IMAGE_URL"
+          alt="Petzl ASAP Lock"
+        />
+        <div class="product-info">
+          <h3>Petzl ASAP Lock</h3>
+          <p>Automatic fall-arrest device that travels with you on the rope. Suitable for horizontal and inclined rope scenarios.</p>
+        </div>
+        <a
+          class="buy-btn"
+          href="https://amzn.to/3ZikJUq"
+          target="_blank"
+          rel="noopener"
+        >
+          Buy on Amazon
+        </a>
+      </div>
+
+      <!-- Product 3: Fall Arrest Lanyard – Petzl ASAP Absorber 40cm -->
+      <div class="product-card">
+        <img
+          src="REPLACE_WITH_ASAP_ABSORBER_IMAGE_URL"
+          alt="Petzl ASAP Absorber Lanyard"
+        />
+        <div class="product-info">
+          <h3>Petzl ASAP Absorber 40cm</h3>
+          <p>Shock-absorbing lanyard that pairs with the ASAP device. Limits fall forces on the user during descent.</p>
+        </div>
+        <a
+          class="buy-btn"
+          href="https://amzn.to/3HvQdAo"
+          target="_blank"
+          rel="noopener"
+        >
+          Buy on Amazon
+        </a>
+      </div>
+
+      <!-- Product 4: Petzl AMD Carabiner -->
+      <div class="product-card">
+        <img
+          src="REPLACE_WITH_AMD_CARABINER_IMAGE_URL"
+          alt="Petzl AMD Carabiner"
+        />
+        <div class="product-info">
+          <h3>Petzl AMD Carabiner</h3>
+          <p>Large, ergonomic carabiner for connecting your descender to a harness or rope chair. Lightweight and easy to handle with gloves.</p>
+        </div>
+        <a
+          class="buy-btn"
+          href="https://amzn.to/4dVy5fg"
+          target="_blank"
+          rel="noopener"
+        >
+          Buy on Amazon
+        </a>
+      </div>
+
+      <!-- Product 5: Petzl William Ball-Lock Carabiner -->
+      <div class="product-card">
+        <img
+          src="REPLACE_WITH_WILLIAM_CARABINER_IMAGE_URL"
+          alt="Petzl William Carabiner"
+        />
+        <div class="product-info">
+          <h3>Petzl William Ball-Lock Carabiner</h3>
+          <p>Connector carabiner for anchoring rope. Ball-lock mechanism provides maximum security and easy one-handed operation.</p>
+        </div>
+        <a
+          class="buy-btn"
+          href="https://amzn.to/3FILI4P"
+          target="_blank"
+          rel="noopener"
+        >
+          Buy on Amazon
+        </a>
+      </div>
+
+      <!-- Product 6: Petzl Podium Seat -->
+      <div class="product-card">
+        <img
+          src="REPLACE_WITH_PODIUM_SEAT_IMAGE_URL"
+          alt="Petzl Podium Seat"
+        />
+        <div class="product-info">
+          <h3>Petzl Podium Seat</h3>
+          <p>Padded rope-positioning seat for improved comfort and ergonomics during extended rope access work.</p>
+        </div>
+        <a
+          class="buy-btn"
+          href="https://amzn.to/3Ho6APp"
+          target="_blank"
+          rel="noopener"
+        >
+          Buy on Amazon
+        </a>
+      </div>
+
+      <!-- Product 7: Petzl Ascender -->
+      <div class="product-card">
+        <img
+          src="REPLACE_WITH_ASCENDER_IMAGE_URL"
+          alt="Petzl Ascender"
+        />
+        <div class="product-info">
+          <h3>Petzl Ascender</h3>
+          <p>Mechanical rope-climbing device for ascending a fixed rope. Ergonomic handle, smooth operation, lightweight design.</p>
+        </div>
+        <a
+          class="buy-btn"
+          href="https://amzn.to/3FtNaIi"
+          target="_blank"
+          rel="noopener"
+        >
+          Buy on Amazon
+        </a>
+      </div>
+
+      <!-- Product 8: Petzl Foot Loop -->
+      <div class="product-card">
+        <img
+          src="REPLACE_WITH_FOOT_LOOP_IMAGE_URL"
+          alt="Petzl Foot Loop"
+        />
+        <div class="product-info">
+          <h3>Petzl Foot Loop</h3>
+          <p>Reusable foot loop that attaches to your ascender. Ensures secure foot support and efficient rope climbing.</p>
+        </div>
+        <a
+          class="buy-btn"
+          href="https://amzn.to/3SDVvMk"
+          target="_blank"
+          rel="noopener"
+        >
+          Buy on Amazon
+        </a>
+      </div>
+
+      <!-- Product 9: Adjustable Progress Positioning Lanyard -->
+      <div class="product-card">
+        <img
+          src="REPLACE_WITH_PROGRESS_LANYARD_IMAGE_URL"
+          alt="Adjustable Progress Positioning Lanyard"
+        />
+        <div class="product-info">
+          <h3>Adjustable Progress Positioning Lanyard</h3>
+          <p>Allows precise positioning on rope. Adjustable length, heavy-duty webbing, sewn terminations for durability.</p>
+        </div>
+        <a
+          class="buy-btn"
+          href="https://amzn.to/4kwxtiI"
+          target="_blank"
+          rel="noopener"
+        >
+          Buy on Amazon
+        </a>
+      </div>
+
+      <!-- Product 10: Adjustable Positioning Lanyard -->
+      <div class="product-card">
+        <img
+          src="REPLACE_WITH_POSITIONING_LANYARD_IMAGE_URL"
+          alt="Adjustable Positioning Lanyard"
+        />
+        <div class="product-info">
+          <h3>Adjustable Positioning Lanyard</h3>
+          <p>Durable webbing lanyard with double-action snap hooks for stable positioning. Perfect for rope access tasks.</p>
+        </div>
+        <a
+          class="buy-btn"
+          href="https://amzn.to/3SEiPcY"
+          target="_blank"
+          rel="noopener"
+        >
+          Buy on Amazon
+        </a>
+      </div>
+    </section>
+
+    <!-- Keep the previously requested item at the bottom -->
+    <section class="product" style="margin-top: 2rem;">
+      <img
+        src="REPLACE_WITH_PREVIOUS_ITEM_IMAGE_URL"
+        alt="Featured Product"
+      />
+      <div class="product-info">
+        <h3>Featured Amazon Deal</h3>
+        <p>Click below to view this special limited-time offer on Amazon.</p>
+      </div>
       <a
         class="buy-btn"
         href="https://amzn.to/43HGJL3"
         target="_blank"
         rel="noopener"
+        style="margin: 0 1rem 1rem 1rem;"
       >
         Buy on Amazon
       </a>
@@ -78,7 +344,7 @@
   <footer>
     <p>
       <small>
-        Disclaimer: As an Amazon Associate, I earn from qualifying purchases.
+        © 2025 Rope Access Essentials. As an Amazon Associate, we earn from qualifying purchases.
       </small>
     </p>
   </footer>
