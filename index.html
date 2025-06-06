@@ -3,12 +3,86 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>My Amazon Affiliate Picks</title>
+  <title>My Amazon Affiliate Pick</title>
   <style>
-    /* … entire CSS and HTML from the template … */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #ff9900;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+    main {
+      max-width: 600px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      text-align: center;
+    }
+    .product {
+      background-color: #fff;
+      border-radius: 6px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      overflow: hidden;
+      padding: 1.5rem;
+    }
+    .product-title {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    .buy-btn {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background-color: #0073bb;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+    .buy-btn:hover {
+      background-color: #005fa3;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      padding: 1rem 0;
+      color: #666;
+    }
   </style>
 </head>
 <body>
-  <!-- … rest of the page content … -->
+
+  <header>
+    <h1>My Amazon Affiliate Pick</h1>
+  </header>
+
+  <main>
+    <!-- Single Product Section -->
+    <section class="product">
+      <h2 class="product-title">View This Product on Amazon</h2>
+      <a
+        class="buy-btn"
+        href="https://amzn.to/3HrMPpW"
+        target="_blank"
+        rel="noopener"
+      >
+        Buy on Amazon
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      <small>
+        Disclaimer: As an Amazon Associate, I earn from qualifying purchases.
+      </small>
+    </p>
+  </footer>
+
 </body>
 </html>
